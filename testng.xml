@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Docker grid setup">
+    <test name="Google, Yahoo and Amaazon test">
+        <classes>
+            <class name="selenium_docker_integration.GooglePage" />
+            <class name="selenium_docker_integration.YahooPage" />
+            <class name="selenium_docker_integration.AmazonPage" />
+        </classes>
+    </test>
+</suite>
